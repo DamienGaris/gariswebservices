@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link'
 import Card from './Card';
 import {ArrowRightIcon, 
@@ -18,10 +17,9 @@ function HomeContent1() {
                 <h1 className='text-black text-5xl font-bold'>MA VISION</h1>
                 <p className='w-4/6 text-center text-lg text-gray-600 leading-9'>A travers mes services, je propose de construire ensemble, votre espace dédié et personnalisé pour communiquer sur votre activité.</p>
                 {/*Button vers services*/}
-
-                <Link href='/a-propos'>
+                <Link href='/services'>
                     <button className="bg-transparent hover:text-blue-500 hover:border-blue-500 text-black font-bold py-2 px-4 rounded-full border-4 border-black text-lg flex flex-row items-center">
-                        A PROPOS <ArrowRightIcon className='h-8 w-8 pl-2'/>
+                        SERVICES <ArrowRightIcon className='h-8 w-8 pl-2'/>
                     </button>
                 </Link>
             </div>

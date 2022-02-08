@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Cover from '../components/Cover'
 import HomeContent1 from '../components/HomeContent1'
 import Pricing from '../components/Pricing'
+import HomeSectionAPropos from '../components/HomeSectionAPropos'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Cover />
       <HomeContent1 />
       <Pricing />
+      <HomeSectionAPropos />
     </div>
   )
 }
