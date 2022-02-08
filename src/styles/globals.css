@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply cursor-pointer hover:text-gray-500 sm:text-lg text-sm font-semibold
+
+  }
+}
