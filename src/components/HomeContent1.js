@@ -14,7 +14,7 @@ function HomeContent1() {
         <div className='flex flex-col items-center w-full'>
             {/* ma vision content col*/}
             <div className='flex flex-col items-center pt-32 space-y-8'>
-                <h1 className='text-black text-5xl font-bold'>MA VISION</h1>
+                <h2 className='text-black text-5xl font-bold'>MA VISION</h2>
                 <p className='w-4/6 text-center text-lg text-gray-600 leading-9'>A travers mes services, je propose de construire ensemble, votre espace dédié et personnalisé pour communiquer sur votre activité.</p>
                 {/*Button vers services*/}
                 <Link href='/services'>

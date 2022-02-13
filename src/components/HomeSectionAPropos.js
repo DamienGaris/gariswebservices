@@ -14,7 +14,7 @@ function HomeSectionAPropos({Icons,title,text }) {
                 height={1000}
             />
             <div className='flex flex-col space-y-8 '>
-                <h2 className='text-black text-5xl font-bold'>A PROPOS DE <br></br>GARIS WEB SERVICES</h2>
+                <h2 className='text-black text-5xl font-bold leading-tight'>A PROPOS DE <br></br>GARIS WEB SERVICES</h2>
                 <p>Garis Web Services c’est avant tout un jeune passionné qui souhaite mettre au service des entreprises et des indépendants, ses compétences en matière de site web.</p>
                 <p>Fondé en 2022, Garis Web Services a pour vocation de contribuer à la réussite de nombreux professionnels.</p>
                  {/*Button vers a propos*/}
